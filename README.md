@@ -14,13 +14,13 @@ npx xevol connect claude
 
 The command shows a sign-in code. Approve it in any browser and pick a Workspace. `npx xevol connect other` prints the URL and header for any other MCP client.
 
-Apps that accept an MCP server URL, such as ChatGPT:
+Apps that accept an MCP server URL, such as ChatGPT or Claude:
 
 ```text
 https://xevol.com/api/mcp
 ```
 
-Claude, which leaves out AI picture, video and voice tools:
+Directory listings use a read-only address. It searches and reads contacts, companies and deals in one Workspace, and changes nothing. A sign-in here gives a token that works on this address only:
 
 ```text
 https://xevol.com/api/mcp/listed
